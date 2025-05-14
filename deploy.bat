@@ -5,8 +5,8 @@ echo ========================================
 echo.
 
 REM Set repository information (update these values with your GitHub username)
-SET GITHUB_USERNAME=YOUR_USERNAME
-SET REPO_NAME=redzone-docs
+SET GITHUB_USERNAME=VeinDevTtv
+SET REPO_NAME=red-zone-rp-gitbook
 SET BRANCH=gh-pages
 
 echo Setting up environment...
@@ -91,7 +91,7 @@ echo Pushing to GitHub Pages (%GITHUB_USERNAME%/%REPO_NAME% branch: %BRANCH%)...
 echo.
 
 git remote add origin https://github.com/%GITHUB_USERNAME%/%REPO_NAME%.git
-git push -f origin main:%BRANCH%
+git push -f origin master:%BRANCH%
 
 echo.
 echo ========================================
