@@ -1,0 +1,16 @@
+/* Red Zone RP Documentation Styles */ 
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 20px; max-width: 900px; margin: 0 auto; color: #333; } 
+h1, h2, h3, h4, h5, h6 { color: #e63946; margin-top: 1.5em; } 
+h1 { border-bottom: 2px solid #e63946; padding-bottom: 10px; } 
+a { color: #457b9d; text-decoration: none; } 
+a:hover { text-decoration: underline; } 
+pre, code { background-color: #f1faee; border-radius: 4px; padding: 2px 5px; } 
+pre { padding: 10px; overflow-x: auto; } 
+blockquote { border-left: 4px solid #e63946; padding-left: 20px; margin-left: 0; color: #555; } 
+table { border-collapse: collapse; width: 100%; } 
+th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; } 
+tr:hover { background-color: #f5f5f5; } 
+.task-list-item { list-style-type: none; } 
+.task-list-item-checkbox { margin-right: 10px; } 
+nav { background-color: #1d3557; padding: 10px; border-radius: 5px; margin-bottom: 20px; } 
+nav a { color: white; margin-right: 15px; } 
